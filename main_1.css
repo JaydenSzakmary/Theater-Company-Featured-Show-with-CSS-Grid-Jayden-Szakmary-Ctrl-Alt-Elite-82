@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:"nav""hero""mid""foot"
+
+}
+nav{
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px 11px;
+    margin: 10px;
+    width: 100%;
+    grid-area: nav;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+h1{
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.mid{
+    grid-area: mid;
+    display: grid;
+
+}
+.foot{
+    grid-area: foot;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: right;
+}
+.map{
+    float: left;
+}
+.hero-image{
+    grid-area: hero;
+}
+.raisin{
+    text-align: center;
+}
